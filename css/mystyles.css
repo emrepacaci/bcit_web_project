@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+   }
+
+body {
+    background-color: gainsboro;
+
+
+}
+.nav-link , .navbar-brand
+{
+     color: #f4f4f4;
+}
+
+.nav-link
+{ 
+    margin-right: 1em ;
+}
+
+.nav-link:hover
+{ 
+    background: rgb(0, 249, 54); 
+}
+.jumbotron{
+    height: 100vh;
+}
+.display-4  {
+    color: white;
+
+}
+.lead {
+    color: #f4f4f4;
+
+}
+.jumbotron{
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+
+   }
+   .navbar-nav .open .dropdown-menu{
+       background: rgb(0, 249, 54);
+   }
+
+   .about_me{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+   }
+   .about_me h1{
+    color: green;
+    margin: 2em;
+    text-align: center;
+   }
+   .about_me img{
+    height: 100%;
+       width: 100%;
+      
+   }
+   .about_me span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 110px;
+   }
+   .about_me .int {
+    padding: 2em;
+    border-left:4px;
+   }
+   .about_me .int h3{
+    color: peru;
+   }
+   .about_me .int p{
+    line-height:4;
+    
+   }   
+   .portfolio h1{
+    color:#F97300;
+    margin: 2em; 
+    text-align: center;
+   }
+
+
+  .contact-form {
+    margin: 5em 0;
+    position: relative;
+  } 
+  .contact-form h2 {
+    padding: 2em 2px;
+    color:green;
+
+  }
+  .contact-form .right{
+    max-width: 500px;
+   }
+   .contact-form .right .btn-secondary{
+    background:  rgb(0, 249, 54);
+    color: #fff;
+    border:0;
+   }
+   .contact-form .right .form-control::placeholder{
+    color: rgba(136, 136, 136, 0.87);
+    font-size: 15px;
+   }
+   
+   
+   .skills h2 {
+       text-align: center;
+       text-transform: uppercase;
+       color: #85af4b;
+
+   }
+   .col-sm i  {
+     font-size: 70px;
+     color: #85af4b;
+
+   }
+
+   .hobbies{
+    color: #85af4b;
+    margin: 2em; 
+    text-align: center;
+   }
+
+   .col-sm-6 p {
+       color: #af734b;
+   }
+   .resume {
+    color: #85af4b;
+    margin: 2em; 
+    text-align: center;
+   }
+   .col-sm-6 h4 {
+       color:#85af4b;
+
+   }
+   
